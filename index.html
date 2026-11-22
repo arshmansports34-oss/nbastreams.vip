@@ -165,7 +165,7 @@ nav{display:flex;align-items:center}
 nav a{color:var(--muted);text-decoration:none;margin-left:22px;font-size:15px;font-weight:600;transition:.2s}
 nav a:hover{color:var(--gold)}
 
-/* ===== Discord Button ===== */
+/* ===== Discord Button (header) ===== */
 .discord-btn{display:inline-flex;align-items:center;gap:8px;background:var(--discord);color:#fff !important;text-decoration:none;font-weight:800;font-size:14px;padding:9px 18px;border-radius:30px;margin-left:22px;transition:.2s;box-shadow:0 4px 14px rgba(88,101,242,.4)}
 .discord-btn:hover{filter:brightness(1.15);transform:translateY(-1px);color:#fff !important}
 .discord-btn svg{width:18px;height:18px;fill:#fff}
@@ -193,9 +193,22 @@ nav a:hover{color:var(--gold)}
 .side-ad-left{left:8px}
 .side-ad-right{right:8px}
 
-/* chhoti screen pe side ads hide, content ke sath overlap na ho */
+/* chhoti screen pe side ads hide, content ke sath overlap na lo */
 @media(max-width:1300px){
   .side-ad{display:none}
+}
+
+/* ===== Discord Join Banner (728x90 ad ke niche) ===== */
+.discord-banner{margin:0 0 25px;width:100%}
+.discord-banner-inner{max-width:1150px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:18px;background:linear-gradient(135deg,#5865F2,#4752c4);border-radius:14px;padding:18px 24px;box-shadow:0 6px 22px rgba(88,101,242,.35)}
+.discord-banner-inner svg{width:52px;height:52px;fill:#fff;flex-shrink:0}
+.discord-banner-text h3{color:#fff;font-size:19px;font-weight:800}
+.discord-banner-text p{color:#d6dbff;font-size:14px;margin-top:3px}
+.discord-join-btn{background:#fff;color:#5865F2 !important;font-weight:800;font-size:14px;padding:11px 22px;border-radius:30px;text-decoration:none;white-space:nowrap;transition:.2s;box-shadow:0 4px 12px rgba(0,0,0,.25)}
+.discord-join-btn:hover{filter:brightness(.95);transform:translateY(-1px)}
+@media(max-width:600px){
+  .discord-banner-inner{flex-direction:column;text-align:center;padding:20px}
+  .discord-banner-text{margin-bottom:12px}
 }
 
 /* ===== Match Card 420x220 ===== */
@@ -261,8 +274,8 @@ footer p{color:var(--muted);font-size:13px;margin-top:10px}
 
 <!-- ================= INTRO (NEW H1 — ALL 4 KEYWORDS) ================= -->
 <section class="intro">
-  <h1>NBA Streams Live Tonight – NBABite NBA Webcast Free in Full HD</h1>
-  <p>Basketball never takes a night off, and neither do we. NBABite keeps free NBA Streams ready for every game on the schedule, with an NBA Webcast player that opens instantly and stays in HD through every quarter. Whether you are a lifelong fan or new to the league after the Reddit NBA Streams era, your courtside seat is waiting right here.</p>
+  <h1>NBA Streams Every Game Night – NBABite NBA Webcast HD | Reddit NBA Streams Legacy</h1>
+  <p>A basketball season is a story told over 82 chapters, and the best seat in the house is right here. NBABite streams every chapter free — NBA Streams in true HD, an NBA Webcast player that opens before the opening tip, and a match board that keeps the whole league one glance away. The fans who lived the Reddit NBA Streams era and the fans just joining the ride all get the same courtside view.</p>
 </section>
 
 <!-- ================= SEARCH + MATCHES ================= -->
@@ -284,6 +297,18 @@ footer p{color:var(--muted);font-size:13px;margin-top:10px}
       };
     </script>
     <script type="text/javascript" src="https://czernik.org/22/8bfac467553d453dee7f9fff6185f009"></script>
+  </div>
+
+  <!-- ===== Discord Join Banner (728x90 ad ke niche) ===== -->
+  <div class="discord-banner">
+    <div class="discord-banner-inner">
+      <svg viewBox="0 0 24 24"><path d="M20.317 4.37a19.79 19.79 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.058a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128c.126-.094.252-.192.372-.291a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.3 12.3 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.84 19.84 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+      <div class="discord-banner-text">
+        <h3>Join the NBA Streams Discord Community</h3>
+        <p>Live stream links, match alerts & thousands of basketball fans — all in one place.</p>
+      </div>
+      <a class="discord-join-btn" href="https://discord.gg/eDwwswtX" target="_blank" rel="noopener">Join Discord</a>
+    </div>
   </div>
 
   <div class="matches-grid" id="matchesGrid">
@@ -321,38 +346,38 @@ footer p{color:var(--muted);font-size:13px;margin-top:10px}
 
 <!-- ================= CONTENT (EVERY HEADING HAS YOUR KEYWORDS) ================= -->
 <div class="content">
-  <h2>NBA Streams Live Tonight – Every Matchup on the Board</h2>
-  <p>Check the board, find your game, press play. NBA Streams on NBABite are organized game by game, so the NBA Webcast for tonight's biggest matchup is never more than a click away. Simple, free and always in HD.</p>
+  <h2>NBA Streams – Tip-Off to Trophy, All Free</h2>
+  <p>From the first game of October to the last horn of June, the journey costs you nothing here. NBA Streams on NBABite follow the entire arc of the season, with an NBA Webcast live for every step between opening night and championship night.</p>
 
-  <h2>NBABite – Where Free Basketball Streaming Is Done Right</h2>
-  <p>Plenty of sites promise free basketball; very few deliver it without complications. NBABite delivers exactly what fans ask for: NBA Streams that work, an NBA Webcast player that behaves, and a page that never buries the game behind popups or paywalls.</p>
+  <h2>NBABite – The Home Court Advantage for Fans</h2>
+  <p>Every team fights harder at home, and every fan streams better here. NBABite is the home court of free basketball — NBA Streams that play on demand and an NBA Webcast built to feel like your own personal arena.</p>
 
-  <h2>NBA Webcast – HD Quality That Never Wavers</h2>
-  <p>A stream that drops quality in the fourth quarter is worse than no stream at all. NBA Webcast on NBABite holds its HD clarity from opening tip to final buzzer, making NBA Streams here dependable when the game is on the line.</p>
+  <h2>NBA Webcast – Picture-Perfect Basketball Every Night</h2>
+  <p>The best plays deserve the best frames. NBA Webcast on NBABite keeps every dunk, dish and dagger in sharp HD, so NBA Streams here look exactly the way basketball is meant to look — big, bright and unmissable.</p>
 
-  <h2>Reddit NBA Streams Fans Found a New Home – NBABite</h2>
-  <p>The old Reddit NBA Streams threads made game nights easy, and their disappearance left a hole. NBABite filled it with the same formula fans loved: free NBA Streams, instant NBA Webcast access and a community that lives for basketball.</p>
+  <h2>Reddit NBA Streams Is Gone, the Game Nights Are Not</h2>
+  <p>The Reddit NBA Streams threads closed years ago, but the habit they created never died: fans want free, simple, dependable streams. NBABite answers that call nightly, with NBA Streams and an NBA Webcast that keep the tradition alive.</p>
 
-  <h2>NBA Streams All Season Long – October to June</h2>
-  <p>From opening week to championship parades, the NBA Streams schedule on NBABite never takes a break. Regular season, All-Star weekend, Play-In tournament — every night has its NBA Webcast ready before the arena doors even open.</p>
+  <h2>NBA Streams for Every Fan Base From Coast to Coast</h2>
+  <p>East coast, west coast, small market, big market — the league belongs to everyone. NBA Streams on NBABite cover all 30 teams equally, so the NBA Webcast for your franchise is always on the board, every single night.</p>
 
-  <h2>NBABite NBA Webcast – Servers Ready for Every Crowd</h2>
-  <p>Marquee matchups draw massive audiences, and weak servers crumble under them. NBABite builds NBA Webcast capacity for the biggest nights, keeping NBA Streams steady whether it is a Tuesday sleeper or a Finals Game 7.</p>
+  <h2>NBABite NBA Webcast – Clean Player, Pure Basketball</h2>
+  <p>The player should disappear the moment the game starts. NBABite keeps the NBA Webcast interface minimal on purpose, letting NBA Streams deliver basketball without menus, clutter or anything else standing between you and the hardwood.</p>
 
-  <h2>NBA Streams With No Registration – Just Basketball</h2>
-  <p>Sign-up forms are the enemy of game night. NBA Streams on NBABite skip the paperwork entirely: no accounts, no email lists, no passwords to forget. Click Watch Live and the NBA Webcast takes over from there.</p>
+  <h2>NBA Streams Without Subscriptions – Basketball Unlocked</h2>
+  <p>No cable bundle, no league pass, no monthly bill. NBA Streams on NBABite unlock the entire schedule for free, with an NBA Webcast that asks for nothing except that you enjoy the game you came to see.</p>
 
-  <h2>The Reddit NBA Streams Spirit – Alive Every Game Night</h2>
-  <p>Fans of the original Reddit NBA Streams remember how simple watching used to be. That simplicity is the blueprint here. NBA Streams on NBABite honor it daily, pairing a clean NBA Webcast with the free access fans have always deserved.</p>
+  <h2>The Reddit NBA Streams Heartbeat Still Beats Here</h2>
+  <p>Free access for every fan — that was the heartbeat of the Reddit NBA Streams community, and it never stopped. NBABite keeps it pounding with NBA Streams that stay free and an NBA Webcast that stays reliable, season after season.</p>
 
-  <h2>NBA Webcast on Any Screen – Phone, Laptop or TV</h2>
-  <p>Stream on the bus, cast to the living room TV, sneak a quarter at your desk. NBA Webcast on NBABite runs smoothly on every device, and NBA Streams quality stays sharp no matter where you watch from.</p>
+  <h2>NBA Webcast on the Go – Never Miss a Fourth Quarter</h2>
+  <p>Sometimes life pulls you away at the worst moment — that is what phones are for. NBA Webcast on NBABite runs smoothly on mobile, keeping NBA Streams in your pocket so the fourth quarter is never more than a tap away.</p>
 
-  <h2>NBABite Playoffs – NBA Streams for the Championship Run</h2>
-  <p>When the postseason starts, every possession matters and every fan wants in. NBABite keeps NBA Streams live through every playoff round, with NBA Webcast coverage for the Play-In, Conference Finals and the NBA Finals trophy night.</p>
+  <h2>NBABite Playoffs &amp; Finals – NBA Streams for the Big Stage</h2>
+  <p>The postseason is where legends are written, and NBABite writes every word with you. NBA Streams stay live through the Play-In, every series and every Game 7, with NBA Webcast capacity ready for the biggest audiences of the year.</p>
 
-  <h2>NBA Streams Are Better Together – Join the NBABite Discord</h2>
-  <p>The final buzzer is just the start of the conversation. On the NBABite Discord, fans — including many from the old Reddit NBA Streams community — break down every game, share NBA Webcast picks and argue about the best plays. NBA Streams bring the action; the Discord brings the family.</p>
+  <h2>NBA Streams Together – The NBABite Discord Hangout</h2>
+  <p>Basketball hits different with a crowd around you. The NBABite Discord — home to plenty of Reddit NBA Streams veterans — turns every NBA Streams night into a group hangout, where each NBA Webcast moment gets celebrated in real time.</p>
 </div>
 
 <!-- ================= FAQ ================= -->
